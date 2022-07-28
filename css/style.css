@@ -13,3 +13,16 @@
 .carousel-caption{
     bottom: 80px;
 }
+.button{
+    text-decoration: none;
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+.registation-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #289BDE;
+    padding: 25px;
+}
