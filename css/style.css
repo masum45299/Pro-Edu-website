@@ -17,6 +17,7 @@
     text-decoration: none;
     background-color: white;
     padding: 8px 15px;
+    border: none;
     border-radius: 5px;
 }
 .registation-flex{
@@ -29,4 +30,40 @@
 .company img{
     width: 120px;
 height: 33px;
+}
+.fa-brands{
+    padding: 0px 10px;
+    font-size: 20px;
+}
+
+/* media quaries part  */
+@media screen and (max-width:767px) {
+    .card-pic img{
+        width: 100%;
+    }
+    .trust-part{
+        display: none;
+    }
+    .registation-flex{
+        flex-direction: column;
+    }
+    .registation-content{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 20px;
+    }
+    .carousel-item img{
+        height: 300px;
+    }
+    .carousel-caption h1{
+        font-size: 25px;
+    }
+    
+}
+
+@media screen and (min-width:767px) and (max-width:992px) {
+    .trust-part{
+        display: none;
+    }
 }
